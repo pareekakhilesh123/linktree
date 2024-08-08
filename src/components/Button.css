@@ -1,0 +1,27 @@
+  
+    
+
+    
+ 
+    .Sign-login .signup-btn {
+      background-color: #1e2330;
+      color: #ffffff;
+      padding: 18px 26px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      margin-left: 10px;
+      transition: background-color 0.3s, color 0.3s; 
+      font-size: 20px;
+    }
+    
+    .Sign-login .login-btn:hover {
+      background-color: #f0f0f0; 
+      color: #333; 
+    }
+    
+    .Sign-login .signup-btn:hover {
+      background-color: #333; 
+      color: #f0f0f0; 
+    }
+    

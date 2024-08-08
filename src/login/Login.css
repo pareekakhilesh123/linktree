@@ -1,0 +1,46 @@
+
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left {
+    padding: 40px;
+    flex: 1;
+  }
+  
+  .right {
+    flex: 1;
+    background-color: #f0e8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  h1 {
+    margin: 20px 0;
+    font-size: 32px;
+  }
+  
+  .links a {
+    color: #7a35ff;
+    text-decoration: none;
+  }
+  
+
+  
+  
