@@ -3,7 +3,7 @@ import './Home.css';
 import Navbar from '../components/Navbar/Navbar';
 import Section from './Section';
 import Footer from '../components/Footer/Footer';
-import Login from '../login/Login';
+
 
 
 function Home() {
@@ -46,7 +46,7 @@ function Home() {
      imgURL={"./img1.png"} />
 
      <Footer />
-     <Login />
+    
 
 
       

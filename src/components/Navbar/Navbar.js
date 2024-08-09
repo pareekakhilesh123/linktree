@@ -1,6 +1,7 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Button from '../Button.js';
+import React from 'react';
 
 
 
@@ -15,8 +16,8 @@ const Navbar = () => {
                 <a href='#'>Pricing</a>
                 <a href='#'>Learn</a>
             </div>
-            <button className="login-btn">Log in</button>
-             <Button/>
+            <Link to="/login" className="login-btn">Log in</Link>
+            <Button bName="Sing UP " />
         </div>
 
     </>

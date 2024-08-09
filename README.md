@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+This is a simple Linktree clone built using React. The application includes three pages: Home, Login, and Profile.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+    Demo
+    Features
+    Installation
+    Usage
+     Structure
+    Contributing
+    License
+    Demo
+You can view the live demo of this project here: Linktree Clone Demo (Add the link to your deployed application)
 
-## Available Scripts
+Features
+    Home Page: A landing page with basic information and navigation.
+    Login Page: A simple login form where users can enter their credentials.
+    Profile Page: A page displaying the user's profile information with links.
+    Installation
+    Follow these steps to run the project locally:
 
-In the project directory, you can run:
+Clone the repository:
 
-### `npm start`
+bash
+Copy code
+git clone https://github.com/pareekakhilesh123/linktree
+cd linktree-clone
+Install dependencies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+npm install
+Start the development server:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+npm start
+The application should now be running on http://localhost:3000.
 
-### `npm test`
+Usage
+Navigate to http://localhost:3000 to view the Home page.
+Click on the "Log in" button to go to the Login page.
+After logging in, you will be redirected to the Profile page.
+Folder Structure
+plaintext
+Copy code
+linktree-clone/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   └── Input.js
+        └── Button.js
+        └── Card.js
+        └── Footer.js
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── Login.js
+│   │         └── Profile.js
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── README.md
+└── package.json
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+components/: Reusable components like Navbar and Input fields.
 
-### `npm run build`
+pages/: Separate pages for Home, Login, and Profile.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+App.js: Main application file handling routes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+index.js: Entry point of the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributing
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! Please open an issue or submit a pull request for any bugs or feature requests.
