@@ -1,0 +1,61 @@
+.navsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    height: 80px;
+    padding: 0 20px;
+    border-radius: 45px;
+    width: 90%; 
+    max-width: 1359px;
+    padding-left: 4px;
+    position: fixed;
+    top: 50px;
+    left: 92px;
+  }
+  
+  .img-about {
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+  }
+  
+  .img-about svg {
+    height: 24px; 
+    margin-right: 20px;
+    
+  }
+  
+  .img-about a {
+    margin-left: 20px;
+    color: #676b5f;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 12px 16px;
+  }
+  
+  .img-about a:hover {
+    border-radius: 8px;
+    background: #d7cfcf;
+  }
+  
+
+  
+  
+  
+  .login-btn {
+    background-color: #eff0ec;
+    color: black;
+    font-size: 18px;
+    padding: 17px 26px;
+    margin-left: 350px;
+    border: #f0f0f0;
+    border-radius: 10px;
+  }
+  
+ 
+ .login-btn:hover {
+    background-color: #f0f0f0; 
+    color: #ff0000; 
+  }
