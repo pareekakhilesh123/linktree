@@ -1,77 +1,44 @@
-This is a simple Linktree clone built using React. The application includes three pages: Home, Login, and Profile.
 
-Table of Contents
-    Demo
-    Features
-    Installation
-    Usage
-     Structure
-    Contributing
-    License
-    Demo
-You can view the live demo of this project here: Linktree Clone Demo (Add the link to your deployed application)
+# Linktree Clone (React)
 
-Features
-    Home Page: A landing page with basic information and navigation.
-    Login Page: A simple login form where users can enter their credentials.
-    Profile Page: A page displaying the user's profile information with links.
-    Installation
-    Follow these steps to run the project locally:
+A simple Linktree clone built using React, featuring a Home page, Login page, and Profile page.
 
-Clone the repository:
+## Features
 
-bash
-Copy code
-git clone https://github.com/pareekakhilesh123/linktree
-cd linktree-clone
-Install dependencies:
+- **Home Page:** Introductory page with navigation links.
+- **Login Page:** User login form with input fields for email and password.
+- **Profile Page:** Displays user profile .
 
-bash
-Copy code
-npm install
-Start the development server:
+## Installation
 
-bash
-Copy code
-npm start
-The application should now be running on http://localhost:3000.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/pareekakhilesh123/linktree
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd linktree-clone
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-Usage
-Navigate to http://localhost:3000 to view the Home page.
-Click on the "Log in" button to go to the Login page.
-After logging in, you will be redirected to the Profile page.
-Folder Structure
-plaintext
-Copy code
-linktree-clone/
-├── public/
-│   ├── index.html
-│   └── ...
-├── src/
-│   ├── components/
-│   │   ├── Navbar.js
-│   │   └── Input.js
-        └── Button.js
-        └── Card.js
-        └── Footer.js
-│   ├── pages/
-│   │   ├── Home.js
-│   │   ├── Login.js
-│   │         └── Profile.js
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-├── README.md
-└── package.json
+## Usage
 
-components/: Reusable components like Navbar and Input fields.
+- Visit `http://localhost:3000` to view the Home page.
+- Use the "Log in" button to navigate to the Login page.
+- Upon successful login, access the Profile page.
 
-pages/: Separate pages for Home, Login, and Profile.
+## Folder Structure
 
-App.js: Main application file handling routes.
+- `src/components`: Contains reusable components like Navbar and Input.
+- `src/pages`: Includes individual pages like Home, Login, and Profile.
+- `src/App.js`: Main application file with routing.
+- `public/`: Contains the base HTML file and static assets.
 
-index.js: Entry point of the application.
 
-Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any bugs or feature requests.
