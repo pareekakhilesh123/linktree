@@ -42,3 +42,13 @@ A simple Linktree clone built using React, featuring a Home page, Login page, an
 - `public/`: Contains the base HTML file and static assets.
 
 
+## Demo
+
+Home Page 
+![Home Page](image.png)
+
+2. Login in page 
+![Login Page](image-1.png)
+
+3. ProFile Page
+![Profile Page](image-2.png)
