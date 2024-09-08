@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/linktree/static/css/main.62b4aede.css",
+    "main.js": "/linktree/static/js/main.7a617abd.js",
+    "static/media/bgc.jpg": "/linktree/static/media/bgc.d406c6a9284fa0d4cb40.jpg",
+    "index.html": "/linktree/index.html",
+    "main.62b4aede.css.map": "/linktree/static/css/main.62b4aede.css.map",
+    "main.7a617abd.js.map": "/linktree/static/js/main.7a617abd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62b4aede.css",
+    "static/js/main.7a617abd.js"
+  ]
+}
